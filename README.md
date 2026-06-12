@@ -16,6 +16,3 @@
  - Tìm kiếm, lọc dữ liệu, xem chi tiết bằng modal.
  - Form đăng ký có validation.
  - Lưu và xóa danh sách đăng ký bằng LocalStorage.
-5. Link demo
-GitHub Pages: .........................................................................
-6. Ảnh giao diện
