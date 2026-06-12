@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Learning - Danh Sách Đã Đăng Ký</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class="nav-logo" href="index.html">IT Learning</a>
+            <ul class="nav-menu">
+                <li><a class="nav-link" href="index.html">Trang Chủ</a></li>
+                <li><a class="nav-link" href="courses.html">Khóa Học & Sự Kiện</a></li>
+                <li><a class="nav-link" href="register.html">Đăng Ký</a></li>
+                <li><a class="nav-link active" href="registrations.html">Đã Đăng Ký</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; flex-wrap: wrap; gap: 15px;">
+            <h2>Danh Sách Học Viên Đăng Ký Hệ Thống</h2>
+            <button id="btn-delete-all" class="btn btn-danger">Xóa Tất Cả Dữ Liệu</button>
+        </div>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ và Tên</th>
+                        <th>Lớp</th>
+                        <th>Số Điện Thoại</th>
+                        <th>Chương Trình Đăng Ký</th>
+                        <th>Ghi chú</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody id="registrations-table-body"></tbody>
+            </table>
+        </div>
+
+        <div id="empty-message" style="text-align: center; padding: 40px; color: #64748b; display: none;">
+            <p style="font-size: 1.2rem; font-weight: bold;">Hiện tại danh sách trống!</p>
+            <p>Vui lòng chuyển hướng sang trang đăng ký dữ liệu.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Đại học Bình Dương - Phân hiệu Cà Mau</p>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
